@@ -96,6 +96,6 @@ starter/
 
 - ห้ามแก้ `Notifier.java`, `EmailNotifier.java`, `SmsNotifier.java` และ `TestRunner.java`
 - ห้ามลบ/เปลี่ยน signature ของ method ที่ spec กำหนด (เพิ่ม private helper ได้)
-- ห้ามให้ method ใดขว้าง `UnsupportedOperationException` — ถ้ารู้สึกว่าต้องขว้าง แปลว่าออกแบบผิดหลัก LSP/ISP
+- ห้ามให้ method ใดขว้าง `UnsupportedOperationException` — ถ้ารู้สึกว่าต้องขว้าง แปลว่าออกแบบผิดหลัก LSP/ISP ...
 
 
