@@ -75,7 +75,7 @@ public final class NotificationService {
     /** ความสะดวก: ประกาศเพลงใหม่ (แสดงการใช้ Song ร่วมกับ service) */
     public boolean announceNewSong(Song song, Priority priority) {
         if (song == null) {
-            throw new IllegalArgumentException("song must not be null");
+            throw new IllegalArgumentException("song ไม่สามารถเป็น null ได้");
         }
         return broadcast("New release: " + song.title() + " by " + song.artist(),
                 priority);
